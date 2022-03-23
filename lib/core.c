@@ -21,6 +21,7 @@
 #include <sys/sysmacros.h>
 #include <sys/types.h>
 #include <unistd.h>
+#include <libgen.h>
 
 /*
  * These are symbols first available in linux v5.5. In order to allow to build
